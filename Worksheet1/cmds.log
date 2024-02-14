@@ -1,0 +1,35 @@
+    1  ls
+    2  cd
+    3  help
+    4  student/giangpass1/giangpass1
+    5  passwd 
+    6  passwd
+    7  :ls
+    8  ls -la
+    9  mkdir cs131
+   10  cd cs131
+   11  ls
+   12  vi testfile.txt
+   13  ls
+   14  cd ..
+   15  ls
+   16  ls -a
+   17  cat .viminfo
+   18  clear
+   19  ls
+   20  ls -a
+   21  $USER
+   22  echo $USER
+   23  echo "hello $USER"
+   24  git 
+   25  git user
+   26  git config
+   27  git config --get
+   28  cd cs131
+   29  cd gitrepo
+   30  ls
+   31  cd Worksheet1
+   32  wget www.github.com
+   33  ls
+   34  cat index.html
+   35  history > cmds.log
