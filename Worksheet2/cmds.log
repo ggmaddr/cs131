@@ -1,0 +1,125 @@
+    1  ls
+    2  cd
+    3  help
+    4  student/giangpass1/giangpass1
+    5  passwd 
+    6  passwd
+    7  :ls
+    8  ls -la
+    9  mkdir cs131
+   10  cd cs131
+   11  ls
+   12  vi testfile.txt
+   13  ls
+   14  cd ..
+   15  ls
+   16  ls -a
+   17  cat .viminfo
+   18  clear
+   19  ls
+   20  ls -a
+   21  $USER
+   22  echo $USER
+   23  echo "hello $USER"
+   24  git 
+   25  git user
+   26  git config
+   27  git config --get
+   28  cd cs131
+   29  cd gitrepo
+   30  ls
+   31  cd Worksheet1
+   32  wget www.github.com
+   33  ls
+   34  cat index.html
+   35  history > cmds.log
+   36  ls
+   37  git status
+   38  cd ..
+   39  git status
+   40  git remote add origin https://github.com/ggmaddr/cs131.git
+   41  git commit -m "<Some Message>"
+   42  git add .
+   43  git status
+   44  git commit -m "first"
+   45  git push --set-upstream origin master
+   46  git push origin master
+   47  git 
+   48  git status
+   49  gigit config --global user.email "you@example.com"
+   50  git config --global user.email "you@example.com"
+   51  git config --global user.email "giang.ta@sjsu.edu"
+   52  git config --global user.nameLinks to an external site. "MyUsername"
+   53  git config --global user.nameLinks to an external site. "MyUsernam
+   54  ;
+   55  git config --global user.name "ggmaddr"
+   56  git config --global user.email "ggiangta@gmail.com"
+   57  git username
+   58   cd ~/.ssh && ssh-keygen
+   59  mkdir ~/.ssh
+   60   cd ~/.ssh && ssh-keygen
+   61  cat id_rsa.pub
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd cs131
+   66  ls
+   67  mkdir gitrepo
+   68  ls
+   69  cd gitrepo
+   70  git init
+   71  mkdir Worksheet1
+   72  clear
+   73  reset
+   74  wget www.github.com
+   75  ls
+   76  rm index.html
+   77  ls
+   78  cd Worksheet1
+   79  ls
+   80  rm index.html
+   81  cd ..
+   82  wget www.github.com
+   83  ls
+   84  history > cmds.log
+   85  cd
+   86  ls
+   87  ls -a
+   88  history > cmds.log
+   89  cmds.log
+   90  cat cmds.log
+   91  ls
+   92  cs131
+   93  cd cs131
+   94  ls
+   95  rm cmds.log
+   96  ls
+   97  cd ..
+   98  rm cmds.log
+   99  cd cs131
+  100  ls
+  101  rm index.html
+  102  cd
+  103  ls
+  104  cd cs cs131
+  105  cd cs131
+  106  cd gitrepo
+  107  ls
+  108  cd cs131
+  109  ls
+  110  grep "United States" "Global YouTube Statistics.csv"
+  111  grep "Music" "Global YouTube Statistics.csv" > music.txt
+  112  grep "Music" "Global YouTube Statistics.csv"
+  113  ls
+  114  cd gitrepo
+  115  ls
+  116  cd Worksheet2
+  117  touch counts.txt
+  118  grep "Music" "Global YouTube Statistics.csv" > music_records.txt
+  119  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  120  grep "Music" "Global YouTube Statistics.csv" > music_records.txt
+  121  wc -l music_records.txt >> counts.txt
+  122  wc -w music_records.txt >> counts.txt
+  123  vi counts.txt
+  124  cat counts.txt
+  125  history > cmds.log
