@@ -1,0 +1,28 @@
+1. Output: /bin/bash
+2. Output: /mnt/scratch/SP24_CS131_Jyotika/gradysp24
+3. My UID is 1215(gradysp24), the group I belong is 1215(gradysp24). I found this because of the command id. Here is the output: 
+uid=1215(gradysp24) gid=1215(gradysp24) groups=1215(gradysp24),78(S78)
+4.From myDir directory, I can cd to that directory, ls and ls -l it (read permissions). I cannot do write permission in it. For e.g: touch newfileshouldfail.txt is a failed command.
+6. Output of "free -m"
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32686       19493        3563       19188       33659
+Swap:          4119           0        4119
+9. The operating system is Red Hat Enterprise Linux, version 8.6 (Ootpa). This information is stored at /etc/os-release. According to the output of cat /etc/os-release: 
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+10. According to the output of ls -l /etc/os-release: lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release , it indicates that all users can read, write and execute for the file containing the OS version info

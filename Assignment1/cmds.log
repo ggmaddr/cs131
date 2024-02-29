@@ -1,0 +1,59 @@
+ Question 1:
+  232  mkdir Assignment1
+  233  ls
+  234  cd Assignment1
+  235  touch Assignment1.txt
+Question 2:
+  236  echo $SHELL
+  237  echo $SHELL >> Assignment1.txt
+
+  238  echo $HOME
+  239  echo $HOME >> Assignment1.txt
+  240  cat Assignment1.txt
+Question 3:
+  241  id
+  242  echo "3. My UID is 1215(gradysp24), the group I belong is 1215(gradysp24). I found this because of "
+
+  243  echo "3. My UID is 1215(gradysp24), the group I belong is 1215(gradysp24). I found this because of the command "id". Here is the output: " >> Assignment1.txt
+  244  echo `id` >> Assignment1.txt
+Question 4:
+  245  mkdir myDir
+  246  chmod -w myDir
+  247  cd myDir
+  248  ls
+  249  cd ..
+  250  cd myDir
+  251  ls -l
+  252  cd ..
+  253  ls -l
+  254  cd myDir
+  255  touch newfileshouldfail.txt
+  256  cd ..
+  257  echo "From "myDir" directory, I can cd to that directory, ls and ls -l it (read permissions). I cannot do write permission in it. For e.g: touch newfileshouldfail.txt is a failed command" >> Assignment1.txt
+  258  vi Assignment1.txt
+Question 5 + 6:
+  259  mkdir myDir2
+  260  mkdir myDir2/myDir3
+  261  touch myDir2/myFile.txt
+  262  mv myDir2/myFile.txt myDir2/myDir3/
+  263  free -m
+  264  mv myDir2/myFile.txt myDir2/myDir3/ >> Assignment1.txt
+  265  free -m >>Assignment1.txt
+Question 9:
+  266  cat /etc/os-release
+  267  echo "9. The operating system is Red Hat Enterprise Linux, version 8.6 (Ootpa). This information is stored at /etc/os-release. According to the output of "cat /etc/os-release": " >>Assignment1.txt
+  268  cat /etc/os-release >> Assignment1.txt
+  269  cd /etc
+  270  ls
+  271  cd ..
+  272  ls
+  273  cd /mnt/scratch/SP24_CS131_Jyotika/gradysp24
+  274  ls
+  275  cd cs131
+  276  ls
+  277  cd gitrepo/Assignment1
+Question 10:
+  278  ls -l /etc/os-release
+  279  echo "10. According to the output of ls -l /etc/os-release: lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release , it indicates that all users can read, write and execute for the file containing the OS version info" >> Assignment1.txt
+  280  vi Assignment1.txt
+  281  history > cmds.log
