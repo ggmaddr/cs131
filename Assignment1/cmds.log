@@ -33,11 +33,11 @@ Question 4:
   258  vi Assignment1.txt
 Question 5 + 6:
   259  mkdir myDir2
-  260  mkdir myDir2/myDir3
+  260  mkdir myDir3
   261  touch myDir2/myFile.txt
-  262  mv myDir2/myFile.txt myDir2/myDir3/
+  262  mv myDir2/myFile.txt myDir3/
   263  free -m
-  264  mv myDir2/myFile.txt myDir2/myDir3/ >> Assignment1.txt
+  264  ls
   265  free -m >>Assignment1.txt
 Question 9:
   266  cat /etc/os-release
