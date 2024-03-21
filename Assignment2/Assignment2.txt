@@ -625,4 +625,43 @@ That was my output.
 3. August, 2014 with 12 channels
 
 Problem 3:
+Command and ouput: ps -u gradysp24
+    PID TTY          TIME CMD
+ 105881 ?        00:08:07 systemd
+ 105883 ?        00:00:00 (sd-pam)
+ 106343 ?        00:00:01 tmux: server
+ 106344 pts/18   00:00:00 bash
+ 108414 pts/24   00:00:00 bash
+ 114869 pts/13   00:00:00 bash
+4078094 ?        00:00:00 sshd
+4078095 pts/36   00:00:00 bash
+4155985 pts/36   00:00:00 ps
 
+Problem 4:
+a.
+b.
+ps -u gradysp24
+    PID TTY          TIME CMD
+ 105881 ?        00:08:07 systemd
+ 105883 ?        00:00:00 (sd-pam)
+ 106343 ?        00:00:01 tmux: server
+ 106344 pts/18   00:00:00 bash
+ 108414 pts/24   00:00:00 bash
+ 114869 pts/13   00:00:00 bash
+4078094 ?        00:00:00 sshd
+4078095 pts/36   00:00:00 bash
+4156349 ?        00:00:00 sshd
+4156352 pts/1    00:00:00 bash
+4156412 pts/36   00:00:00 vim
+4156579 pts/1    00:00:00 ps
+
+--
+vim Process ID was 4156412.
+d. Adter quiting 'vi' session in the first terminal, vim process is not in the process list. The reason being I opened the vi session in the first terminal and kept it running, it created a vim process. Checking the process list (ps) in the second terminal, the vim process was listed among other processes associated with my user (gradysp24). After quitting the vi session in the first terminal, the vim process terminated. So in process list in the second terminal, the vim process was not there anymore because it had ended.
+
+5. init process in Linux has PID 1 and is invoked by the kernel at the startup. It's the first process after the kernel process 0.
+The command: ps aux | grep systemd
+
+6. ps aux: display information about all running processes
+
+a means all processes in the system from all users. u is user-oriented format that contains detailed information about users and CPU. x helps include processes that are not associated with a terminal. Without this option, ps typically only displays processes that are associated with the current terminal session 

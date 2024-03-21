@@ -1,0 +1,49 @@
+
+    4  mkdir Assignment2
+    5  cd Assignment2
+    6  vi Assignment2.txt
+    7  cat Assignment2.txt
+    8 P1. find /etc -type f > one.txt 2> two.txt
+    9  cat one.txt
+   10  vi Assignment2.txt
+   11  cat one.txt >> Assignment2.txt
+   12  cat two.txt >> Assignment2.txt
+   13  cat two.txt
+   14  vi Assignment2.txt
+   15  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+   16  ls
+   17  cat 'Global YouTube Statistics.csv'
+   18  ls 
+   19  cut -d ',' -f 2,3 "Global YouTube Statistics.csv" | tail -n +2
+   20  cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+   21  cut -d ',' -f 20,21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+   22  cut -d ',' -f 20,21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort | head -n 3
+   23  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort | head -n 3
+   24 P2.  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+   25  vi Assignment2.txt
+   26  cd ..
+   27  ls
+   28  cat Assignment2.txt
+   29  ls
+   30  ls
+   31  cd Assignment 2
+   32  cd Assignment2
+   33  ls
+   34  id
+   35  ps -u gradysp24
+   36  tmux ls
+   37  tmux new-session -s homework
+   38  tmux ls
+   39* ps -u 
+   40  ps aux | grep gradysp24
+   41  Problem 3: ps -u gradysp24
+   42  vi Assignment2.txt
+   43 Problem 4: vi file.txt
+   44  vi Assignment2.txt
+   45  od
+   46  id
+   47 P5. ps aux | grep systemd
+   48  vi Assignment2.txt
+   49  vi Assignment5.txt
+   50  vi Assignment2.txt
+   51  history > cmds.log
