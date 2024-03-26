@@ -1,0 +1,28 @@
+Task 1:
+For this task, I select each country seperately to perform operations.
+
+I sort the monthly earners. I only select channel name, country, and highest monthly earningto print out as the output using cut command.
+
+First command: `grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16`
+output: T-Series,India,9000000
+
+Second command: `grep "United States" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16`
+output: DaFuz!?Boom!,United States,9200000
+
+Third command: `grep "United Kingdom" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16`
+output: Woody & Kleiny,United Kingdom,2000000
+
+
+Task2:
+Similarly, I perform operations seperately for 3 categories. I print out name, subscribers and category as output of the command:
+3 commands are:
+
+grep "Sports" "Global YouTube Statistics.csv" | sort -t , -k 3 -n -r | head -n 1 | cut -d , -f 2,3,10
+grep "Education" "Global YouTube Statistics.csv" | sort -t , -k 3 -n -r | head -n 1 | cut -d , -f 2,3,10
+grep "Entertainment" "Global YouTube Statistics.csv" | sort -t , -k 3 -n -r | head -n 1 | cut -d , -f 2,3,10
+
+The results for the command with its caterogy:
+
+Cocomelon - Nursery Rhymes,162000000,Education
+WWE,96000000,Sports
+MrBeast,166000000,Entertainment

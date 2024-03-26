@@ -1,0 +1,36 @@
+    1  ls
+    2  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n  >> ws3.txt
+    3  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head 1  >> ws3.txt
+    4  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1  >> ws3.txt
+    5  vi ws3.txt 
+    6  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,16 | awk -F ',' '{print $1, $2}'
+    7  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16
+    8  grep "India" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16 > ws3.txt
+    9  vi ws3.txt
+   10  grep "United Kingdom" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16 >> ws3.txt 
+   11  grep "United Kingdom" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16 
+   12  grep "United States" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16
+   13  grep "United States" "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 2,8,16 >> ws3.txt 
+   14  vi ws3.txt
+   15  grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3, 10
+   16  grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   17  echo 'grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3, 10' >> ws3.txt 
+   18  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3, 10
+   19  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   20  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 3 | cut -d ',' -f 2,3,10
+   21  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 20 | cut -d ' ' -f 2,3,10
+   22  grep ",Education," "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 20 | cut -d ' ' -f 2,3,10
+   23  grep ",Education," "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ' ' -f 2,3,10
+   24  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ' ' -f 2,3,10
+   25  grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3, 10
+   26  grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   27  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   28  head -10 'Global YouTube Statistics.csv' 
+   29  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 4 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   30  grep "Education" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10
+   31  vi ws3.txt 
+   32  grep "Sports" "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3,10 >> ws3.txt 
+   33  grep "Entertainment" "Global YouTube Statistics.csv" | sort -t , -k 3 -n -r | head -n 1 | cut -d , -f 2,3,10
+   34  grep "Entertainment" "Global YouTube Statistics.csv" | sort -t , -k 3 -n -r | head -n 1 | cut -d , -f 2,3,10 >> ws3.txt 
+   35  vi ws3.txt
+   36  history > cmds.log
