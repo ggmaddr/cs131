@@ -2,10 +2,112 @@ Script started on 2024-04-08 02:29:30-04:00
 bash-4.4$ ls
 ws4.txt
 bash-4.4$ vi ~/.bash_profile
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"~/.bash_profile" 0L, 0C[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H# Add the following lines to the .bash_profile file
-alias l='ls [2;13H[K[2;13H[?25h[?25l[24;1H[K[2;13H-ltr'
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"~/.bash_profile" 0L, 0C[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                           alias l='ls [2;13H[K[2;13H[?25h[?25l[24;1H[K[2;13H-ltr'
 alias w='ls -l | wc'[3;21H[K[3;20H[?25h[2;17H[1;20H lines to the .bash_profile fil_[?25l[24;1H[1m-- INSERT --[1;40H[?25h[mprofile file[?25l[1;51H[K[1;51H[?25h[?25l[1;50H[K[1;50H[?25h[?25l[1;49H[K[1;49H[?25h[?25l[1;48H[K[1;48H[?25h[?25l[?25h[?25l[1;46H[K[1;46H[?25h[?25l[1;45H[K[1;45H[?25h[?25l[1;44H[K[1;44H[?25h[?25l[1;43H[K[1;43H[?25h[?25l[1;42H[K[1;42H[?25h[?25l[1;41H[K[1;41H[?25h[?25l[1;40H[K[1;40H[?25h[?25l[1;39H[K[1;39H[?25h[?25l[1;38H[K[1;38H[?25h[?25l[1;37H[K[1;37H[?25h[?25l[1;36H[K[1;36H[?25h[?25l[1;35H[K[1;35H[?25h[?25l[1;34H[K[1;34H[?25h[?25l[?25h[?25l[1;32H[K[1;32H[?25h[?25l[1;31H[K[1;31H[?25h[?25l[1;30H[K[1;30H[?25h[?25l[?25h[?25l[1;28H[K[1;28H[?25h[?25l[1;27H[K[1;27H[?25h[?25l[?25h[?25l[1;25H[K[1;25H[?25h[?25l[1;24H[K[1;24H[?25h[?25l[1;23H[K[1;23H[?25h[?25l[1;22H[K[1;22H[?25h[?25l[1;21H[K[1;21H[?25h[?25l[?25h[?25l[1;19H[K[1;19H[?25h[?25l[1;17H[K[1;17H[?25h[?25l[1;16H[K[1;16H[?25h[?25l[1;15H[K[1;15H[?25h[?25l[1;14H[K[1;14H[?25h[?25l[1;13H[K[1;13H[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[?25h[?25l[1;1H[K[1;1H[?25h[24;1H[K[1;1H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"~/.bash_profile" 3L, 40C written
 [?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ exit
 exit
 
 Script done on 2024-04-08 02:30:43-04:00
+Script started on 2024-04-08 02:37:47-04:00
+bash-4.4$ l 
+bash: l: command not found
+bash-4.4$ source ~/.bash_profile
+bash-4.4$ l
+total 4
+-rw-rw-r-- 1 gradysp24 gradysp24 3785 Apr  8 02:37 ws4.txt
+bash-4.4$ w
+      2      11      67
+bash-4.4$ exit
+exit
+
+Script done on 2024-04-08 02:38:45-04:00
+Script started on 2024-04-08 02:41:47-04:00
+bash-4.4$ wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+--2024-04-08 02:41:52--  https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+
+Global YouTube Statistics.csv    0%[                                                     ]       0  --.-KB/s               Global YouTube Statistics.csv  100%[====================================================>] 195.58K  --.-KB/s    in 0.009s  
+
+2024-04-08 02:41:52 (21.2 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+
+bash-4.4$ mkdir Worksheet4/Subscribers[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ mkdir[K[K[K[K[Kcd Sus[Kbscribers
+bash-4.4$ ls
+bash-4.4$ touch s[KS[K[K[K[K[K[K[Ktouch Subscribers/United_States.txt
+touch: cannot touch 'Subscribers/United_States.txt': No such file or directory
+bash-4.4$ ls
+bash-4.4$ ls
+bash-4.4$ ls ..
+'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ cd Subscribers
+bash: cd: Subscribers: No such file or directory
+bash-4.4$ cd Subscribers
+bash: cd: Subscribers: No such file or directory
+bash-4.4$ ls
+bash-4.4$ touch United_States.txt
+bash-4.4$ touch India.txt
+bash-4.4$ awk -F 'w'[K[K,' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv > Worksheet4/Subscribers/United_States..txt
+bash: Worksheet4/Subscribers/United_States.txt: No such file or directory
+bash-4.4$ awk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv > Worksheet4/Subscribers/United_States..txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited_States.t[1Pxt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited_States.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited_States.txt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUnited_States.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PUnited_States.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt[1PUnited_States.txt United_States.txt
+awk: fatal: cannot open file `Global YouTube Statistics.csv' for reading (No such file or directory)
+bash-4.4$ ls
+India.txt  United_States.txt
+bash-4.4$ cd ..
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ mv `[K'Global YouTube Statistics.csv' Sub[K[K[KSubscribers
+bash-4.4$ ls[K[Kcd Su[K[KSubscribers
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   India.txt   United_States.txt
+bash-4.4$ lscd Subscribers[C[C[C[C[C[C[C[C[C[C[32@mv 'Global YouTube Statistics.csv'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsawk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv > United_States.txt
+bash-4.4$ cat United[K[K[K[K[K[K[K[K[K[Khead -40 U[KUnited_States.txt
+170000000
+166000000
+162000000
+112000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+56900000
+56400000
+52900000
+52700000
+52200000
+47900000
+46600000
+44200000
+42400000
+42400000
+40900000
+39200000
+38600000
+38200000
+38200000
+38000000
+37900000
+37600000
+36700000
+36600000
+36300000
+35200000
+35200000
+34900000
+33700000
+33600000
+32800000
+32700000
+31700000
+31700000
+bash-4.4$ exit
+exit
+
+Script done on 2024-04-08 02:46:58-04:00
