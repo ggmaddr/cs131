@@ -570,3 +570,74 @@ xuebosp24
 yelinsp24
 zakisp24
 
+
+Task 4:
+Command:
+First, we have `cat cmdt4`:
+{
+    if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/)
+        split($6, time, ":");
+    else
+        split($7, time, ":");
+    if ((time[1] >= 5 && time[1] < 9) || (time[1] == 9 && time[2] == 0) )
+        print $1
+}
+
+Then, command: 
+
+awk -f cmdt4 lastsp24.fake | sort | uniq | awk 'BEGIN { print "Early Birds List:\n" } { print } END { print "\nEarly Birds are dope. Please ensure you get enough sleep though." }'
+
+Result: 
+
+aayushsp24
+ajaysp24
+ericsp24
+gradysp24
+ronsp24
+
+Task 5:
+Command:
+awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+
+Output:
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+Task 6:
+Command:
+awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+
+Result:
+
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+acesp24
+akashsp24
+ayesp24
+alexsp24
+aayushsp24
+ajaysp24
+ashish
+amansp24
+
+Task 7:
+Command:
+sed 's/[[:alpha:][:digit:][:space:]]//g' passwd.fake | sort -u
+Result:
+
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://

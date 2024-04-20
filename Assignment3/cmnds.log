@@ -1,0 +1,100 @@
+  404  ls
+Task 1
+  405  echo "Task 1" > Assignment3.txt 
+  406  echo "Command(s) used to solve :" >> Assignment3.txt 
+  407  echo `wc -l < last.fake` >> Assignment3.txt
+  408  cat Assignment3.txt 
+  409  vi Assignment3.txt 
+  410  wc -l < lastsp24.fake
+  411  echo "2. Command to filter lines containing "sp24" into lastsp24.fake:
+  412  " >> Assignment3.txt
+  413  cat Assignment3.txt 
+  414  vi Assignment3.txt 
+  415  grep "sp24" last.fake > lastsp24.fake
+  416  cat lastsp24.fake
+  417  vi Assignment3.txt 
+  418  grep -v "sp24" lastsp24.fake
+Task 2  
+419  vi Assignment3.txt
+  420  grep "Sun" lastsp24.fake | awk '{print $1, $5, $6}'
+  421  grep "Sun" lastsp24.fake | awk '{print $1, $4, $5, $6}'
+  422  grep "akashsp24" lastsp24.fake 
+  423  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {printf "The list of people who worked on Sunday are:\n"} {print} END {printf "Kudos to these people for putting in the work\n"}'
+  424  vi Assignment3.txt 
+  425  head -30 lastsp24.fake 
+  426  cd .
+  427  cat lastsp24.fake 
+  428  awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) split($6, time, ":"); else split($7, time, ":"); if ((time[1] >= 23 && time[2] >= 0) || (time[1] <= 4 && time[2] >= 0)) print}' lastsp24.fake | sort | uniq
+  429  awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) split($6, time, ":"); else split($7, time, ":"); if ((time[1] >= 23 && time[2] >= 0) || (time[1] <= 4 && time[2] >= 0)) print }' lastsp24.fake | sort | uniq
+  430  awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) split($6, time, ":"); else split($7, time, ":"); if ((time[1] >= 23 && time[2] >= 0) || (time[1] <= 4 && time[2] >= 0)) print $1 }' lastsp24.fake | sort | uniq
+  431  vi Assignment3.txt 
+  432  ls
+  433  touch cmdtask3.txt
+  434  touch cmdt3
+  435  rm cmdtask3.txt 
+  436  vi cmdt3 
+  437  awk -f cmdt3 
+  438  awk -f cmdt3 /lastsp24/fake
+  439  awk -f cmdt3 /lastsp24.fake
+  440  ls
+  441  awk -f cmdt3 lastsp24.fake | sort
+  442  vi cmdt3 
+  443  awk -f cmdt3 lastsp24.fake | sort
+  444  grep "04:00" lastsp24.fake 
+  445  grep "23:00" lastsp24.fake 
+  446  vi cmdt3 
+  447  awk -f cmdt3 lastsp24.fake | grep "23:00"
+  448  awk -f cmdt3 lastsp24.fake 
+  449  awk -f cmdt3 lastsp24.fake | sort
+  450  vi cmdt3 
+  451  awk -f cmdt3 lastsp24.fake | sort | uniq | awk 'BEGIN { print "Night Owls List:\n" } { print } END { print "\nNight Owls are dope. Please'
+  452  vi Assignment3.txt 
+  453  cd ..
+  454  ls
+  455  git add .
+  456  git commit -m "m"
+  457  git push origin master
+  458  git Assignment3
+  459  cd Assignment
+  460  cd Assignment3
+
+Task 4
+  461  ls
+  462  cp cmdt3 cmdt4
+  463  vi cmdt4
+  464  awk -f cmdt4 lastsp24.fake | sort
+  465  grep "9:00" lastsp24.fake 
+  466  ls
+  467  awk -f cmdt4 lastsp24.fake | sort | uniq | awk 'BEGIN { print "Early Birds List:\n" } { print } END { print "\nEarly Birds are dope. Please ensure you get enough sleep though." }'
+  468  vi cmdt4
+  469  awk -f cmdt4 lastsp24.fake | sort | uniq | awk 'BEGIN { print "Early Birds List:\n" } { print } END { print "\nEarly Birds are dope. Please ensure you get enough sleep though." }'
+  470  cat cmdt4
+  471  vi Assignment3.txt 
+Task 5
+  472  echo "task 5"
+  473  awk '$1 ~ /^t/' lastsp24.fake
+  474  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+  475  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | uniq
+  476  vi Assignment3.txt 
+  477  ls
+  478  cd cs131//gitrepo/
+  479  ls
+  480  cd Assignment3
+  481  ls
+  482  vi Assignment3.txt 
+  483  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+Task 6 
+ 484  echo "Task 6"
+  485  cat passwd.fake 
+  486  cat passwd.fake | sort
+  487  /etc/passwd
+  488  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print}' passwd.fake
+  489  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+  490  vi Assignment3.txt 
+Task 7
+  491  echo "task7"
+  492  sed 's/[[:alpha:][:digit:][:space:]]//g' passwd.fake | sort -u
+  493  head -20 passwd.fake 
+  494  vi Assignment3.txt 
+  495  cat Assignment3.txt 
+  496  history > cmnds.log
