@@ -1,0 +1,4 @@
+Number of entries in United States/Music.txt: 73
+Number of entries in United States/Entertainment.txt: 68
+Number of entries in United States/Gaming.txt: 26
+Number of entries in United States/Comedy.txt: 22

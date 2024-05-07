@@ -1,0 +1,49 @@
+  563  cat Global\ YouTube\ Statistics.csv 
+  564  head -20 Global\ YouTube\ Statistics.csv 
+  565  ls
+  566  cd United\ States/
+  567  ls
+  568  cat Comedy.txt 
+  569  cd ..
+  570  vi script.sh 
+  571  rm script.sh 
+  572  vi script.sh
+  573  ./ script.sh 
+  574  chmod u+x script.sh 
+  575  ./script.sh 
+  576  .s
+  577  ls
+  578  vi script.sh 
+  579  ./script.sh 
+  580  vi ws5.txt 
+  581  vi script.sh 
+  582  ./script.sh 
+  583  vi script.sh 
+  584  ./script.sh 
+  585  ls
+  586  vi ws5.txt 
+  587  cd United\ States/
+  588  ls
+  589  ls ..
+  590  rm -r 'United States'
+  591  cd ..
+  592  rm -r 'United States'
+  593  ls
+  594  mkdir 'United States'
+  595  touch United States/Music.txt
+  596  cd United\ States/
+  597  touch Music.txt
+  598  touch Entertainment.txt
+  599  touch Gaming.txt
+  600  touch Comedy.txt
+  601  cd ..
+  602  ls
+  603  rm United
+  604  ls
+  605  cat ws5.txt
+  606  vi script.sh
+  607  ./ script.sh 
+  608  ./script.sh 
+  609  cat ws5.txt
+  610  cat script.sh 
+  611  history > cmnds.log
